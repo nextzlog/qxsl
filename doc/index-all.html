@@ -310,22 +310,6 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">指定された入力を読み込むデコーダを返します。</div>
 </dd>
-<dt><span class="memberNameLink"><a href="qxsl/sheet/BasicFactory.html#describe()">describe()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/BasicFactory.html" title="qxsl.sheet内のクラス">BasicFactory</a></dt>
-<dd>
-<div class="block">この書式の詳細を述べる文字列を返します。</div>
-</dd>
-<dt><span class="memberNameLink"><a href="qxsl/sheet/SheetFactory.html#describe()">describe()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></dt>
-<dd>
-<div class="block">この書式の詳細を述べる文字列を返します。</div>
-</dd>
-<dt><span class="memberNameLink"><a href="qxsl/table/BasicFactory.html#describe()">describe()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/BasicFactory.html" title="qxsl.table内のクラス">BasicFactory</a></dt>
-<dd>
-<div class="block">この書式の詳細を述べる文字列を返します。</div>
-</dd>
-<dt><span class="memberNameLink"><a href="qxsl/table/TableFactory.html#describe()">describe()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/TableFactory.html" title="qxsl.table内のクラス">TableFactory</a></dt>
-<dd>
-<div class="block">この書式の詳細を述べる文字列を返します。</div>
-</dd>
 </dl>
 <a id="I:E">
 <!--   -->
@@ -456,11 +440,11 @@ loadScripts(document, 'script');</script>
 <dl>
 <dt><span class="memberNameLink"><a href="qxsl/sheet/SheetManager.html#factory(java.lang.String)">factory(String)</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetManager.html" title="qxsl.sheet内のクラス">SheetManager</a></dt>
 <dd>
-<div class="block">指定された名前を持つ書式の実装を検索します。</div>
+<div class="block">指定された名前もしくはラベルを持つ書式の実装を検索します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/table/TableManager.html#factory(java.lang.String)">factory(String)</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/TableManager.html" title="qxsl.table内のクラス">TableManager</a></dt>
 <dd>
-<div class="block">指定された名前を持つ書式の実装を検索します。</div>
+<div class="block">指定された名前もしくはラベルを持つ書式の実装を検索します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/field/FieldManager.html#factory(javax.xml.namespace.QName)">factory(QName)</a></span> - クラス のメソッドqxsl.field.<a href="qxsl/field/FieldManager.html" title="qxsl.field内のクラス">FieldManager</a></dt>
 <dd>
@@ -504,7 +488,7 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/field/FieldManager.html#%3Cinit%3E(java.lang.ClassLoader)">FieldManager(ClassLoader)</a></span> - クラス のコンストラクタqxsl.field.<a href="qxsl/field/FieldManager.html" title="qxsl.field内のクラス">FieldManager</a></dt>
 <dd>
-<div class="block">指定されたローダを参照するインスタンスを構築します。</div>
+<div class="block">指定されたローダから書式の実装を検索します。</div>
 </dd>
 <dt><a href="qxsl/field/FieldManager.Any.html" title="qxsl.field内のクラス"><span class="typeNameLink">FieldManager.Any</span></a> - <a href="qxsl/field/package-summary.html">qxsl.field</a>のクラス</dt>
 <dd>
@@ -590,6 +574,10 @@ loadScripts(document, 'script');</script>
 </a>
 <h2 class="title">G</h2>
 <dl>
+<dt><span class="memberNameLink"><a href="qxsl/ruler/Library.html#get(java.lang.String)">get(String)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Library.html" title="qxsl.ruler内のクラス">Library</a></dt>
+<dd>
+<div class="block">規約が参照する変数値を返します。</div>
+</dd>
 <dt><span class="memberNameLink"><a href="qxsl/sheet/BasicFactory.html#get(java.lang.String)">get(String)</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/BasicFactory.html" title="qxsl.sheet内のクラス">BasicFactory</a></dt>
 <dd>
 <div class="block">指定された名前の設定の値を返します。</div>
@@ -708,6 +696,22 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">ストリームに交信記録の冒頭を書き込みます。</div>
 </dd>
+<dt><span class="memberNameLink"><a href="qxsl/sheet/BasicFactory.html#help()">help()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/BasicFactory.html" title="qxsl.sheet内のクラス">BasicFactory</a></dt>
+<dd>
+<div class="block">この書式の詳細を述べる文字列を返します。</div>
+</dd>
+<dt><span class="memberNameLink"><a href="qxsl/sheet/SheetFactory.html#help()">help()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></dt>
+<dd>
+<div class="block">この書式の詳細を述べる文字列を返します。</div>
+</dd>
+<dt><span class="memberNameLink"><a href="qxsl/table/BasicFactory.html#help()">help()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/BasicFactory.html" title="qxsl.table内のクラス">BasicFactory</a></dt>
+<dd>
+<div class="block">この書式の詳細を述べる文字列を返します。</div>
+</dd>
+<dt><span class="memberNameLink"><a href="qxsl/table/TableFactory.html#help()">help()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/TableFactory.html" title="qxsl.table内のクラス">TableFactory</a></dt>
+<dd>
+<div class="block">この書式の詳細を述べる文字列を返します。</div>
+</dd>
 <dt><span class="memberNameLink"><a href="qxsl/ruler/Contest.html#host()">host()</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Contest.html" title="qxsl.ruler内のクラス">Contest</a></dt>
 <dd>
 <div class="block">コンテストの主催者を返します。</div>
@@ -760,7 +764,7 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/field/FieldManager.html#iterator()">iterator()</a></span> - クラス のメソッドqxsl.field.<a href="qxsl/field/FieldManager.html" title="qxsl.field内のクラス">FieldManager</a></dt>
 <dd>
-<div class="block">このインスタンスが検出した書式を返します。</div>
+<div class="block">このインスタンスが検出した書式を列挙します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/model/Item.html#iterator()">iterator()</a></span> - クラス のメソッドqxsl.model.<a href="qxsl/model/Item.html" title="qxsl.model内のクラス">Item</a></dt>
 <dd>
@@ -776,11 +780,11 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/sheet/SheetManager.html#iterator()">iterator()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetManager.html" title="qxsl.sheet内のクラス">SheetManager</a></dt>
 <dd>
-<div class="block">このインスタンスが検出した書式を返します。</div>
+<div class="block">このインスタンスが検出した書式を列挙します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/table/TableManager.html#iterator()">iterator()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/TableManager.html" title="qxsl.table内のクラス">TableManager</a></dt>
 <dd>
-<div class="block">このインスタンスが検出した書式を返します。</div>
+<div class="block">このインスタンスが検出した書式を列挙します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/value/Tuple.html#iterator()">iterator()</a></span> - クラス のメソッドqxsl.value.<a href="qxsl/value/Tuple.html" title="qxsl.value内のクラス">Tuple</a></dt>
 <dd>
@@ -792,22 +796,6 @@ loadScripts(document, 'script');</script>
 </a>
 <h2 class="title">L</h2>
 <dl>
-<dt><span class="memberNameLink"><a href="qxsl/sheet/BasicFactory.html#label()">label()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/BasicFactory.html" title="qxsl.sheet内のクラス">BasicFactory</a></dt>
-<dd>
-<div class="block">この書式の表示に適した文字列を返します。</div>
-</dd>
-<dt><span class="memberNameLink"><a href="qxsl/sheet/SheetFactory.html#label()">label()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></dt>
-<dd>
-<div class="block">この書式の表示に適した文字列を返します。</div>
-</dd>
-<dt><span class="memberNameLink"><a href="qxsl/table/BasicFactory.html#label()">label()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/BasicFactory.html" title="qxsl.table内のクラス">BasicFactory</a></dt>
-<dd>
-<div class="block">この書式の表示に適した文字列を返します。</div>
-</dd>
-<dt><span class="memberNameLink"><a href="qxsl/table/TableFactory.html#label()">label()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/TableFactory.html" title="qxsl.table内のクラス">TableFactory</a></dt>
-<dd>
-<div class="block">この書式の表示に適した文字列を返します。</div>
-</dd>
 <dt><a href="qxsl/ruler/Library.html" title="qxsl.ruler内のクラス"><span class="typeNameLink">Library</span></a> - <a href="qxsl/ruler/package-summary.html">qxsl.ruler</a>のクラス</dt>
 <dd>
 <div class="block">交信記録の処理のための手続きを提供します。</div>
@@ -920,19 +908,19 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/sheet/BasicFactory.html#name()">name()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/BasicFactory.html" title="qxsl.sheet内のクラス">BasicFactory</a></dt>
 <dd>
-<div class="block">この書式を識別する完全な名前を返します。</div>
+<div class="block">この書式の表示に適した文字列を返します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/sheet/SheetFactory.html#name()">name()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></dt>
 <dd>
-<div class="block">この書式を識別する完全な名前を返します。</div>
+<div class="block">この書式の表示に適した文字列を返します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/table/BasicFactory.html#name()">name()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/BasicFactory.html" title="qxsl.table内のクラス">BasicFactory</a></dt>
 <dd>
-<div class="block">この書式を識別する完全な名前を返します。</div>
+<div class="block">この書式の表示に適した文字列を返します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/table/TableFactory.html#name()">name()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/TableFactory.html" title="qxsl.table内のクラス">TableFactory</a></dt>
 <dd>
-<div class="block">この書式を識別する完全な名前を返します。</div>
+<div class="block">この書式の表示に適した文字列を返します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/value/Field.html#name()">name()</a></span> - クラス のメソッドqxsl.value.<a href="qxsl/value/Field.html" title="qxsl.value内のクラス">Field</a></dt>
 <dd>
@@ -1296,7 +1284,7 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/sheet/SheetManager.html#%3Cinit%3E(java.lang.ClassLoader)">SheetManager(ClassLoader)</a></span> - クラス のコンストラクタqxsl.sheet.<a href="qxsl/sheet/SheetManager.html" title="qxsl.sheet内のクラス">SheetManager</a></dt>
 <dd>
-<div class="block">指定されたローダを参照するインスタンスを構築します。</div>
+<div class="block">指定されたローダから書式の実装を検索します。</div>
 </dd>
 <dt><a href="qxsl/sheet/SheetOrTable.html" title="qxsl.sheet内のクラス"><span class="typeNameLink">SheetOrTable</span></a> - <a href="qxsl/sheet/package-summary.html">qxsl.sheet</a>のクラス</dt>
 <dd>
@@ -1388,7 +1376,7 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/table/TableManager.html#%3Cinit%3E(java.lang.ClassLoader)">TableManager(ClassLoader)</a></span> - クラス のコンストラクタqxsl.table.<a href="qxsl/table/TableManager.html" title="qxsl.table内のクラス">TableManager</a></dt>
 <dd>
-<div class="block">指定されたローダを参照するインスタンスを構築します。</div>
+<div class="block">指定されたローダから書式の実装を検索します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/field/FieldFactory.html#target()">target()</a></span> - インタフェース のメソッドqxsl.field.<a href="qxsl/field/FieldFactory.html" title="qxsl.field内のインタフェース">FieldFactory</a></dt>
 <dd>
@@ -1510,6 +1498,22 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">指定された名前の要素を構築します。</div>
 </dd>
+<dt><span class="memberNameLink"><a href="qxsl/sheet/BasicFactory.html#type()">type()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/BasicFactory.html" title="qxsl.sheet内のクラス">BasicFactory</a></dt>
+<dd>
+<div class="block">この書式を識別する完全な名前を返します。</div>
+</dd>
+<dt><span class="memberNameLink"><a href="qxsl/sheet/SheetFactory.html#type()">type()</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></dt>
+<dd>
+<div class="block">この書式を識別する完全な名前を返します。</div>
+</dd>
+<dt><span class="memberNameLink"><a href="qxsl/table/BasicFactory.html#type()">type()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/BasicFactory.html" title="qxsl.table内のクラス">BasicFactory</a></dt>
+<dd>
+<div class="block">この書式を識別する完全な名前を返します。</div>
+</dd>
+<dt><span class="memberNameLink"><a href="qxsl/table/TableFactory.html#type()">type()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/TableFactory.html" title="qxsl.table内のクラス">TableFactory</a></dt>
+<dd>
+<div class="block">この書式を識別する完全な名前を返します。</div>
+</dd>
 </dl>
 <a id="I:U">
 <!--   -->
@@ -1526,7 +1530,7 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/sheet/SheetManager.html#unpack(byte%5B%5D)">unpack(byte[])</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetManager.html" title="qxsl.sheet内のクラス">SheetManager</a></dt>
 <dd>
-<div class="block">指定されたバイト列から要約書類を読み込み交信記録を抽出します。</div>
+<div class="block">指定されたバイト列が表す要約書類から交信記録を抽出します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/sheet/SheetOrTable.html#unpack(byte%5B%5D)">unpack(byte[])</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetOrTable.html" title="qxsl.sheet内のクラス">SheetOrTable</a></dt>
 <dd>
@@ -1538,7 +1542,7 @@ loadScripts(document, 'script');</script>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/sheet/SheetManager.html#unpack(java.lang.String)">unpack(String)</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetManager.html" title="qxsl.sheet内のクラス">SheetManager</a></dt>
 <dd>
-<div class="block">指定された文字列から要約書類を読み込み交信記録を抽出します。</div>
+<div class="block">指定された文字列が表す要約書類から交信記録を抽出します。</div>
 </dd>
 <dt><span class="memberNameLink"><a href="qxsl/sheet/SheetOrTable.html#unpack(java.lang.String)">unpack(String)</a></span> - クラス のメソッドqxsl.sheet.<a href="qxsl/sheet/SheetOrTable.html" title="qxsl.sheet内のクラス">SheetOrTable</a></dt>
 <dd>

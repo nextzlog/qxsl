@@ -19,8 +19,8 @@
 <script type="text/javascript" src="../../script-dir/jquery-ui.js"></script>
 </head>
 <body class="class-declaration">
-<script type="text/javascript">var data = {"i0":10,"i1":10,"i2":10};
-var tabs = {65535:["t0","\u3059\u3079\u3066\u306E\u30E1\u30BD\u30C3\u30C9"],2:["t2","\u30A4\u30F3\u30B9\u30BF\u30F3\u30B9\u30FB\u30E1\u30BD\u30C3\u30C9"],8:["t4","concrete\u30E1\u30BD\u30C3\u30C9"]};
+<script type="text/javascript">var data = {"i0":10,"i1":6,"i2":10,"i3":10};
+var tabs = {65535:["t0","\u3059\u3079\u3066\u306E\u30E1\u30BD\u30C3\u30C9"],2:["t2","\u30A4\u30F3\u30B9\u30BF\u30F3\u30B9\u30FB\u30E1\u30BD\u30C3\u30C9"],4:["t3","abstract\u30E1\u30BD\u30C3\u30C9"],8:["t4","concrete\u30E1\u30BD\u30C3\u30C9"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
 var tableTab = "tableTab";
@@ -138,7 +138,7 @@ extends <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/ja
 </a>
 <h2>メソッドの概要</h2>
 <div class="memberSummary">
-<div role="tablist" aria-orientation="horizontal"><button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">すべてのメソッド</button><button role="tab" aria-selected="false" aria-controls="memberSummary_tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t2" class="tableTab" onclick="show(2);">インスタンス・メソッド</button><button role="tab" aria-selected="false" aria-controls="memberSummary_tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t4" class="tableTab" onclick="show(8);">concreteメソッド</button></div>
+<div role="tablist" aria-orientation="horizontal"><button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">すべてのメソッド</button><button role="tab" aria-selected="false" aria-controls="memberSummary_tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t2" class="tableTab" onclick="show(2);">インスタンス・メソッド</button><button role="tab" aria-selected="false" aria-controls="memberSummary_tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t3" class="tableTab" onclick="show(4);">abstractメソッド</button><button role="tab" aria-selected="false" aria-controls="memberSummary_tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t4" class="tableTab" onclick="show(8);">concreteメソッド</button></div>
 <div id="memberSummary_tabpanel" role="tabpanel">
 <table aria-labelledby="t0">
 <thead>
@@ -157,13 +157,20 @@ extends <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/ja
 </td>
 </tr>
 <tr class="rowColor" id="i1">
+<td class="colFirst"><code>abstract <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">Object</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#get(java.lang.String)">get</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a>&nbsp;name)</code></th>
+<td class="colLast">
+<div class="block">規約が参照する変数値を返します。</div>
+</td>
+</tr>
+<tr class="altColor" id="i2">
 <td class="colFirst"><code><a href="Pattern.html" title="qxsl.ruler内のクラス">Pattern</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#pattern()">pattern</a></span>()</code></th>
 <td class="colLast">
 <div class="block">交信記録の構造式として返します。</div>
 </td>
 </tr>
-<tr class="altColor" id="i2">
+<tr class="rowColor" id="i3">
 <td class="colFirst"><code><a href="Section.html" title="qxsl.ruler内のクラス">Section</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#section()">section</a></span>()</code></th>
 <td class="colLast">
@@ -238,6 +245,21 @@ extends <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/ja
 <dl>
 <dt><span class="returnLabel">戻り値:</span></dt>
 <dd>交信記録の構造</dd>
+</dl>
+</section>
+</li>
+<li class="blockList">
+<section class="detail">
+<h3><a id="get(java.lang.String)">get</a></h3>
+<div class="memberSignature"><span class="modifiers">public abstract</span>&nbsp;<span class="returnType"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">Object</a></span>&nbsp;<span class="memberName">get</span>&#8203;(<span class="arguments"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a>&nbsp;name)</span></div>
+<div class="block">規約が参照する変数値を返します。</div>
+<dl>
+<dt><span class="paramLabel">パラメータ:</span></dt>
+<dd><code>name</code> - 変数の名前</dd>
+<dt><span class="returnLabel">戻り値:</span></dt>
+<dd>変数の値</dd>
+<dt><span class="simpleTagLabel">導入されたバージョン:</span></dt>
+<dd>2020/09/27</dd>
 </dl>
 </section>
 </li>

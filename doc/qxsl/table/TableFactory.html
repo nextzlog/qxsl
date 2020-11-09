@@ -19,7 +19,7 @@
 <script type="text/javascript" src="../../script-dir/jquery-ui.js"></script>
 </head>
 <body class="class-declaration">
-<script type="text/javascript">var data = {"i0":10,"i1":10,"i2":6,"i3":10,"i4":6,"i5":10,"i6":10,"i7":6,"i8":10,"i9":6,"i10":6,"i11":6,"i12":10};
+<script type="text/javascript">var data = {"i0":10,"i1":10,"i2":6,"i3":10,"i4":10,"i5":10,"i6":6,"i7":10,"i8":6,"i9":6,"i10":6,"i11":10,"i12":6};
 var tabs = {65535:["t0","\u3059\u3079\u3066\u306E\u30E1\u30BD\u30C3\u30C9"],2:["t2","\u30A4\u30F3\u30B9\u30BF\u30F3\u30B9\u30FB\u30E1\u30BD\u30C3\u30C9"],4:["t3","abstract\u30E1\u30BD\u30C3\u30C9"],8:["t4","concrete\u30E1\u30BD\u30C3\u30C9"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -178,66 +178,66 @@ extends <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/ja
 </td>
 </tr>
 <tr class="altColor" id="i4">
-<td class="colFirst"><code>abstract <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#describe()">describe</a></span>()</code></th>
-<td class="colLast">
-<div class="block">この書式の詳細を述べる文字列を返します。</div>
-</td>
-</tr>
-<tr class="rowColor" id="i5">
 <td class="colFirst"><code>byte[]</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#encode(java.util.List)">encode</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html?is-external=true" title="java.util内のクラスまたはインタフェース" class="externalLink">List</a>&lt;<a href="../model/Item.html" title="qxsl.model内のクラス">Item</a>&gt;&nbsp;list)</code></th>
 <td class="colLast">
 <div class="block">指定された交信記録をバイト列に書き出します。</div>
 </td>
 </tr>
-<tr class="altColor" id="i6">
+<tr class="rowColor" id="i5">
 <td class="colFirst"><code>byte[]</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#encode(qxsl.model.Item...)">encode</a></span>&#8203;(<a href="../model/Item.html" title="qxsl.model内のクラス">Item</a>...&nbsp;sequence)</code></th>
 <td class="colLast">
 <div class="block">指定された交信記録をバイト列に書き出します。</div>
 </td>
 </tr>
-<tr class="rowColor" id="i7">
+<tr class="altColor" id="i6">
 <td class="colFirst"><code>abstract <a href="TableEncoder.html" title="qxsl.table内のクラス">TableEncoder</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#encoder(java.io.OutputStream)">encoder</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/OutputStream.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">OutputStream</a>&nbsp;os)</code></th>
 <td class="colLast">
 <div class="block">指定された出力に書き込むエンコーダを返します。</div>
 </td>
 </tr>
-<tr class="altColor" id="i8">
+<tr class="rowColor" id="i7">
 <td class="colFirst"><code><a href="TableEncoder.html" title="qxsl.table内のクラス">TableEncoder</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#encoder(java.io.Writer)">encoder</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/Writer.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">Writer</a>&nbsp;writer)</code></th>
 <td class="colLast">
 <div class="block">指定された出力に書き込むエンコーダを返します。</div>
 </td>
 </tr>
-<tr class="rowColor" id="i9">
+<tr class="altColor" id="i8">
 <td class="colFirst"><code>abstract <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/List.html?is-external=true" title="java.util内のクラスまたはインタフェース" class="externalLink">List</a>&lt;<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#extensions()">extensions</a></span>()</code></th>
 <td class="colLast">
 <div class="block">この書式の拡張子の不変リストを返します。</div>
 </td>
 </tr>
+<tr class="rowColor" id="i9">
+<td class="colFirst"><code>abstract <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#help()">help</a></span>()</code></th>
+<td class="colLast">
+<div class="block">この書式の詳細を述べる文字列を返します。</div>
+</td>
+</tr>
 <tr class="altColor" id="i10">
 <td class="colFirst"><code>abstract <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#label()">label</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#name()">name</a></span>()</code></th>
 <td class="colLast">
 <div class="block">この書式の表示に適した文字列を返します。</div>
 </td>
 </tr>
 <tr class="rowColor" id="i11">
-<td class="colFirst"><code>abstract <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#name()">name</a></span>()</code></th>
-<td class="colLast">
-<div class="block">この書式を識別する完全な名前を返します。</div>
-</td>
-</tr>
-<tr class="altColor" id="i12">
 <td class="colFirst"><code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#toString()">toString</a></span>()</code></th>
 <td class="colLast">
 <div class="block">この書式のファイルフィルタへの表示に適した文字列を返します。</div>
+</td>
+</tr>
+<tr class="altColor" id="i12">
+<td class="colFirst"><code>abstract <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#type()">type</a></span>()</code></th>
+<td class="colLast">
+<div class="block">この書式を識別する完全な名前を返します。</div>
 </td>
 </tr>
 </tbody>
@@ -280,8 +280,8 @@ extends <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/ja
 <ul class="blockList">
 <li class="blockList">
 <section class="detail">
-<h3><a id="name()">name</a></h3>
-<div class="memberSignature"><span class="modifiers">public abstract</span>&nbsp;<span class="returnType"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></span>&nbsp;<span class="memberName">name</span>()</div>
+<h3><a id="type()">type</a></h3>
+<div class="memberSignature"><span class="modifiers">public abstract</span>&nbsp;<span class="returnType"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></span>&nbsp;<span class="memberName">type</span>()</div>
 <div class="block">この書式を識別する完全な名前を返します。</div>
 <dl>
 <dt><span class="returnLabel">戻り値:</span></dt>
@@ -291,8 +291,8 @@ extends <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/ja
 </li>
 <li class="blockList">
 <section class="detail">
-<h3><a id="label()">label</a></h3>
-<div class="memberSignature"><span class="modifiers">public abstract</span>&nbsp;<span class="returnType"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></span>&nbsp;<span class="memberName">label</span>()</div>
+<h3><a id="name()">name</a></h3>
+<div class="memberSignature"><span class="modifiers">public abstract</span>&nbsp;<span class="returnType"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></span>&nbsp;<span class="memberName">name</span>()</div>
 <div class="block">この書式の表示に適した文字列を返します。</div>
 <dl>
 <dt><span class="returnLabel">戻り値:</span></dt>
@@ -302,8 +302,8 @@ extends <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/ja
 </li>
 <li class="blockList">
 <section class="detail">
-<h3><a id="describe()">describe</a></h3>
-<div class="memberSignature"><span class="modifiers">public abstract</span>&nbsp;<span class="returnType"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></span>&nbsp;<span class="memberName">describe</span>()</div>
+<h3><a id="help()">help</a></h3>
+<div class="memberSignature"><span class="modifiers">public abstract</span>&nbsp;<span class="returnType"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></span>&nbsp;<span class="memberName">help</span>()</div>
 <div class="block">この書式の詳細を述べる文字列を返します。</div>
 <dl>
 <dt><span class="returnLabel">戻り値:</span></dt>

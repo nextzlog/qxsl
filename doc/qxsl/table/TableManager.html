@@ -132,7 +132,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base
 <tr class="rowColor">
 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(java.lang.ClassLoader)">TableManager</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/ClassLoader.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">ClassLoader</a>&nbsp;cl)</code></th>
 <td class="colLast">
-<div class="block">指定されたローダを参照するインスタンスを構築します。</div>
+<div class="block">指定されたローダから書式の実装を検索します。</div>
 </td>
 </tr>
 </tbody>
@@ -176,14 +176,14 @@ implements <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base
 <td class="colFirst"><code><a href="TableFactory.html" title="qxsl.table内のクラス">TableFactory</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#factory(java.lang.String)">factory</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a>&nbsp;name)</code></th>
 <td class="colLast">
-<div class="block">指定された名前を持つ書式の実装を検索します。</div>
+<div class="block">指定された名前もしくはラベルを持つ書式の実装を検索します。</div>
 </td>
 </tr>
 <tr class="rowColor" id="i3">
 <td class="colFirst"><code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Iterator.html?is-external=true" title="java.util内のクラスまたはインタフェース" class="externalLink">Iterator</a>&lt;<a href="TableFactory.html" title="qxsl.table内のクラス">TableFactory</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#iterator()">iterator</a></span>()</code></th>
 <td class="colLast">
-<div class="block">このインスタンスが検出した書式を返します。</div>
+<div class="block">このインスタンスが検出した書式を列挙します。</div>
 </td>
 </tr>
 </tbody>
@@ -228,7 +228,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base
 <section class="detail">
 <h3><a id="&lt;init&gt;(java.lang.ClassLoader)">TableManager</a></h3>
 <div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="memberName">TableManager</span>&#8203;(<span class="arguments"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/ClassLoader.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">ClassLoader</a>&nbsp;cl)</span></div>
-<div class="block">指定されたローダを参照するインスタンスを構築します。</div>
+<div class="block">指定されたローダから書式の実装を検索します。</div>
 <dl>
 <dt><span class="paramLabel">パラメータ:</span></dt>
 <dd><code>cl</code> - 書式の実装を検出するクラスローダ</dd>
@@ -249,7 +249,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base
 <section class="detail">
 <h3><a id="iterator()">iterator</a></h3>
 <div class="memberSignature"><span class="modifiers">public final</span>&nbsp;<span class="returnType"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Iterator.html?is-external=true" title="java.util内のクラスまたはインタフェース" class="externalLink">Iterator</a>&lt;<a href="TableFactory.html" title="qxsl.table内のクラス">TableFactory</a>&gt;</span>&nbsp;<span class="memberName">iterator</span>()</div>
-<div class="block">このインスタンスが検出した書式を返します。</div>
+<div class="block">このインスタンスが検出した書式を列挙します。</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">定義:</span></dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Iterable.html?is-external=true#iterator()" title="java.lang内のクラスまたはインタフェース" class="externalLink">iterator</a></code>&nbsp;インタフェース内&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Iterable.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">Iterable</a>&lt;<a href="TableFactory.html" title="qxsl.table内のクラス">TableFactory</a>&gt;</code></dd>
@@ -262,7 +262,7 @@ implements <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base
 <section class="detail">
 <h3><a id="factory(java.lang.String)">factory</a></h3>
 <div class="memberSignature"><span class="modifiers">public final</span>&nbsp;<span class="returnType"><a href="TableFactory.html" title="qxsl.table内のクラス">TableFactory</a></span>&nbsp;<span class="memberName">factory</span>&#8203;(<span class="arguments"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a>&nbsp;name)</span></div>
-<div class="block">指定された名前を持つ書式の実装を検索します。</div>
+<div class="block">指定された名前もしくはラベルを持つ書式の実装を検索します。</div>
 <dl>
 <dt><span class="paramLabel">パラメータ:</span></dt>
 <dd><code>name</code> - 属性の名前</dd>
