@@ -8,86 +8,75 @@
 <meta name="description" content="declaration: package: qxsl.sheet, class: PrintFactory">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../../stylesheet.css" title="Style">
-<link rel="stylesheet" type="text/css" href="../../script-dir/jquery-ui.css" title="Style">
+<link rel="stylesheet" type="text/css" href="../../script-dir/jquery-ui.min.css" title="Style">
+<link rel="stylesheet" type="text/css" href="../../jquery-ui.overrides.css" title="Style">
 <script type="text/javascript" src="../../script.js"></script>
-<script type="text/javascript" src="../../script-dir/jszip/dist/jszip.min.js"></script>
-<script type="text/javascript" src="../../script-dir/jszip-utils/dist/jszip-utils.min.js"></script>
-<!--[if IE]>
-<script type="text/javascript" src="../../script-dir/jszip-utils/dist/jszip-utils-ie.min.js"></script>
-<![endif]-->
-<script type="text/javascript" src="../../script-dir/jquery-3.4.1.js"></script>
-<script type="text/javascript" src="../../script-dir/jquery-ui.js"></script>
+<script type="text/javascript" src="../../script-dir/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="../../script-dir/jquery-ui.min.js"></script>
 </head>
-<body class="class-declaration">
+<body class="class-declaration-page">
 <script type="text/javascript">var data = {"i0":10,"i1":10,"i2":6,"i3":10,"i4":6,"i5":10};
 var tabs = {65535:["t0","\u3059\u3079\u3066\u306E\u30E1\u30BD\u30C3\u30C9"],2:["t2","\u30A4\u30F3\u30B9\u30BF\u30F3\u30B9\u30FB\u30E1\u30BD\u30C3\u30C9"],4:["t3","abstract\u30E1\u30BD\u30C3\u30C9"],8:["t4","concrete\u30E1\u30BD\u30C3\u30C9"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";
+var altColor = "alt-color";
+var rowColor = "row-color";
+var tableTab = "table-tab";
+var activeTableTab = "active-table-tab";
 var pathtoroot = "../../";
 loadScripts(document, 'script');</script>
 <noscript>
 <div>ブラウザのJavaScriptが無効になっています。</div>
 </noscript>
-<div class="flexBox">
-<header role="banner" class="flexHeader">
+<div class="flex-box">
+<header role="banner" class="flex-header">
 <nav role="navigation">
 <!-- ========= START OF TOP NAVBAR ======= -->
-<div class="topNav"><a id="navbar.top">
-<!--   -->
-</a>
-<div class="skipNav"><a href="#skip.navbar.top" title="ナビゲーション・リンクをスキップ">ナビゲーション・リンクをスキップ</a></div>
-<a id="navbar.top.firstrow">
-<!--   -->
-</a>
-<ul class="navList" title="ナビゲーション">
+<div class="top-nav" id="navbar.top">
+<div class="skip-nav"><a href="#skip.navbar.top" title="ナビゲーション・リンクをスキップ">ナビゲーション・リンクをスキップ</a></div>
+<ul id="navbar.top.firstrow" class="nav-list" title="ナビゲーション">
 <li><a href="../../index.html">概要</a></li>
 <li><a href="package-summary.html">パッケージ</a></li>
-<li class="navBarCell1Rev">クラス</li>
+<li class="nav-bar-cell1-rev">クラス</li>
 <li><a href="package-tree.html">階層ツリー</a></li>
 <li><a href="../../deprecated-list.html">非推奨</a></li>
 <li><a href="../../index-all.html">索引</a></li>
 <li><a href="../../help-doc.html">ヘルプ</a></li>
 </ul>
-<div class="aboutLanguage"><a href='http://nextzlog.github.io/qxsl'>QxSL API</a></div>
+<div class="about-language"><a href='http://nextzlog.github.io/qxsl'>QxSL API</a></div>
 </div>
-<div class="subNav">
+<div class="sub-nav">
 <div>
-<ul class="subNavList">
+<ul class="sub-nav-list">
 <li>概要:&nbsp;</li>
 <li>ネスト&nbsp;|&nbsp;</li>
 <li>フィールド&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">コンストラクタ</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">メソッド</a></li>
 </ul>
-<ul class="subNavList">
+<ul class="sub-nav-list">
 <li>詳細:&nbsp;</li>
 <li>フィールド&nbsp;|&nbsp;</li>
 <li><a href="#constructor.detail">コンストラクタ</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.detail">メソッド</a></li>
 </ul>
 </div>
-<div class="navListSearch"><label for="search">SEARCH:</label>
+<div class="nav-list-search"><label for="search">SEARCH:</label>
 <input type="text" id="search" value="search" disabled="disabled">
 <input type="reset" id="reset" value="reset" disabled="disabled">
 </div>
 </div>
 <!-- ========= END OF TOP NAVBAR ========= -->
-<div class="skipNav"><a id="skip.navbar.top">
+<span class="skip-nav" id="skip.navbar.top">
 <!--   -->
-</a></div>
-</nav>
+</span></nav>
 </header>
-<div class="flexContent">
+<div class="flex-content">
 <main role="main">
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="subTitle"><span class="packageLabelInType">パッケージ</span>&nbsp;<a href="package-summary.html">qxsl.sheet</a></div>
+<div class="sub-title"><span class="package-label-in-type">パッケージ</span>&nbsp;<a href="package-summary.html">qxsl.sheet</a></div>
 <h1 title="クラス PrintFactory" class="title">クラス PrintFactory</h1>
 </div>
-<div class="contentContainer">
-<div class="inheritance" title="継承ツリー"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">java.lang.Object</a>
+<div class="inheritance" title="継承ツリー"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html" title="java.lang内のクラスまたはインタフェース" class="external-link">java.lang.Object</a>
 <div class="inheritance"><a href="SheetFactory.html" title="qxsl.sheet内のクラス">qxsl.sheet.SheetFactory</a>
 <div class="inheritance"><a href="BasicFactory.html" title="qxsl.sheet内のクラス">qxsl.sheet.BasicFactory</a>
 <div class="inheritance">qxsl.sheet.PrintFactory</div>
@@ -96,36 +85,34 @@ loadScripts(document, 'script');</script>
 </div>
 <section class="description">
 <hr>
-<pre>public abstract class <span class="typeNameLabel">PrintFactory</span>
+<pre>public abstract class <span class="type-name-label">PrintFactory</span>
 extends <a href="BasicFactory.html" title="qxsl.sheet内のクラス">BasicFactory</a></pre>
 <div class="block">印字可能な文字列で要約書類を表す書式の共通実装です。</div>
-<dl>
-<dt><span class="simpleTagLabel">導入されたバージョン:</span></dt>
+<dl class="notes">
+<dt>導入されたバージョン:</dt>
 <dd>2020/09/24</dd>
 </dl>
 </section>
 <section class="summary">
-<ul class="blockList">
+<ul class="summary-list">
 <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<li class="blockList">
-<section class="constructorSummary"><a id="constructor.summary">
-<!--   -->
-</a>
+<li>
+<section class="constructor-summary" id="constructor.summary">
 <h2>コンストラクタの概要</h2>
-<div class="memberSummary">
-<table>
-<caption><span>コンストラクタ</span><span class="tabEnd">&nbsp;</span></caption>
+<div class="member-summary">
+<table class="summary-table">
+<caption><span>コンストラクタ</span></caption>
 <thead>
 <tr>
-<th class="colFirst" scope="col">コンストラクタ</th>
-<th class="colLast" scope="col">説明</th>
+<th class="col-first" scope="col">コンストラクタ</th>
+<th class="col-last" scope="col">説明</th>
 </tr>
 </thead>
 <tbody>
-<tr class="altColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(java.lang.String,java.lang.String)">PrintFactory</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a>&nbsp;name,
-<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a>&nbsp;cset)</code></th>
-<td class="colLast">
+<tr class="alt-color">
+<th class="col-constructor-name" scope="row"><code><span class="member-name-link"><a href="#%3Cinit%3E(java.lang.String,java.lang.String)">PrintFactory</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a>&nbsp;name,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a>&nbsp;cset)</code></th>
+<td class="col-last">
 <div class="block">指定された名前と文字セットの書式を初期化します。</div>
 </td>
 </tr>
@@ -135,62 +122,60 @@ extends <a href="BasicFactory.html" title="qxsl.sheet内のクラス">BasicFacto
 </section>
 </li>
 <!-- ========== METHOD SUMMARY =========== -->
-<li class="blockList">
-<section class="methodSummary"><a id="method.summary">
-<!--   -->
-</a>
+<li>
+<section class="method-summary" id="method.summary">
 <h2>メソッドの概要</h2>
-<div class="memberSummary">
-<div role="tablist" aria-orientation="horizontal"><button role="tab" aria-selected="true" aria-controls="memberSummary_tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="activeTableTab">すべてのメソッド</button><button role="tab" aria-selected="false" aria-controls="memberSummary_tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t2" class="tableTab" onclick="show(2);">インスタンス・メソッド</button><button role="tab" aria-selected="false" aria-controls="memberSummary_tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t3" class="tableTab" onclick="show(4);">abstractメソッド</button><button role="tab" aria-selected="false" aria-controls="memberSummary_tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t4" class="tableTab" onclick="show(8);">concreteメソッド</button></div>
-<div id="memberSummary_tabpanel" role="tabpanel">
-<table aria-labelledby="t0">
+<div class="member-summary" id="method-summary-table">
+<div class="table-tabs" role="tablist" aria-orientation="horizontal"><button role="tab" aria-selected="true" aria-controls="method-summary-table.tabpanel" tabindex="0" onkeydown="switchTab(event)" id="t0" class="active-table-tab">すべてのメソッド</button><button role="tab" aria-selected="false" aria-controls="method-summary-table.tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t2" class="table-tab" onclick="show(2);">インスタンス・メソッド</button><button role="tab" aria-selected="false" aria-controls="method-summary-table.tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t3" class="table-tab" onclick="show(4);">abstractメソッド</button><button role="tab" aria-selected="false" aria-controls="method-summary-table.tabpanel" tabindex="-1" onkeydown="switchTab(event)" id="t4" class="table-tab" onclick="show(8);">concreteメソッド</button></div>
+<div id="method-summary-table.tabpanel" role="tabpanel">
+<table class="summary-table" aria-labelledby="t0">
 <thead>
 <tr>
-<th class="colFirst" scope="col">修飾子とタイプ</th>
-<th class="colSecond" scope="col">メソッド</th>
-<th class="colLast" scope="col">説明</th>
+<th class="col-first" scope="col">修飾子とタイプ</th>
+<th class="col-second" scope="col">メソッド</th>
+<th class="col-last" scope="col">説明</th>
 </tr>
 </thead>
 <tbody>
-<tr class="altColor" id="i0">
-<td class="colFirst"><code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#byteArrayToString(byte%5B%5D)">byteArrayToString</a></span>&#8203;(byte[]&nbsp;data)</code></th>
-<td class="colLast">
+<tr class="alt-color" id="i0">
+<td class="col-first"><code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a></code></td>
+<th class="col-second" scope="row"><code><span class="member-name-link"><a href="#byteArrayToString(byte%5B%5D)">byteArrayToString</a></span>&#8203;(byte[]&nbsp;data)</code></th>
+<td class="col-last">
 <div class="block">指定されたバイト列を文字列に変換します。</div>
 </td>
 </tr>
-<tr class="rowColor" id="i1">
-<td class="colFirst"><code><a href="SheetDecoder.html" title="qxsl.sheet内のインタフェース">SheetDecoder</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decoder(java.io.InputStream)">decoder</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/InputStream.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">InputStream</a>&nbsp;is)</code></th>
-<td class="colLast">
+<tr class="row-color" id="i1">
+<td class="col-first"><code><a href="SheetDecoder.html" title="qxsl.sheet内のインタフェース">SheetDecoder</a></code></td>
+<th class="col-second" scope="row"><code><span class="member-name-link"><a href="#decoder(java.io.InputStream)">decoder</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/InputStream.html" title="java.io内のクラスまたはインタフェース" class="external-link">InputStream</a>&nbsp;is)</code></th>
+<td class="col-last">
 <div class="block">指定された入力を読み込むデコーダを返します。</div>
 </td>
 </tr>
-<tr class="altColor" id="i2">
-<td class="colFirst"><code>abstract <a href="SheetDecoder.html" title="qxsl.sheet内のインタフェース">SheetDecoder</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decoder(java.io.Reader)">decoder</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/Reader.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">Reader</a>&nbsp;reader)</code></th>
-<td class="colLast">
+<tr class="alt-color" id="i2">
+<td class="col-first"><code>abstract <a href="SheetDecoder.html" title="qxsl.sheet内のインタフェース">SheetDecoder</a></code></td>
+<th class="col-second" scope="row"><code><span class="member-name-link"><a href="#decoder(java.io.Reader)">decoder</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/Reader.html" title="java.io内のクラスまたはインタフェース" class="external-link">Reader</a>&nbsp;reader)</code></th>
+<td class="col-last">
 <div class="block">指定された入力を読み込むデコーダを返します。</div>
 </td>
 </tr>
-<tr class="rowColor" id="i3">
-<td class="colFirst"><code><a href="SheetEncoder.html" title="qxsl.sheet内のインタフェース">SheetEncoder</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#encoder(java.io.OutputStream)">encoder</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/OutputStream.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">OutputStream</a>&nbsp;os)</code></th>
-<td class="colLast">
+<tr class="row-color" id="i3">
+<td class="col-first"><code><a href="SheetEncoder.html" title="qxsl.sheet内のインタフェース">SheetEncoder</a></code></td>
+<th class="col-second" scope="row"><code><span class="member-name-link"><a href="#encoder(java.io.OutputStream)">encoder</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/OutputStream.html" title="java.io内のクラスまたはインタフェース" class="external-link">OutputStream</a>&nbsp;os)</code></th>
+<td class="col-last">
 <div class="block">指定された出力に書き込むエンコーダを返します。</div>
 </td>
 </tr>
-<tr class="altColor" id="i4">
-<td class="colFirst"><code>abstract <a href="SheetEncoder.html" title="qxsl.sheet内のインタフェース">SheetEncoder</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#encoder(java.io.Writer)">encoder</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/Writer.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">Writer</a>&nbsp;writer)</code></th>
-<td class="colLast">
+<tr class="alt-color" id="i4">
+<td class="col-first"><code>abstract <a href="SheetEncoder.html" title="qxsl.sheet内のインタフェース">SheetEncoder</a></code></td>
+<th class="col-second" scope="row"><code><span class="member-name-link"><a href="#encoder(java.io.Writer)">encoder</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/Writer.html" title="java.io内のクラスまたはインタフェース" class="external-link">Writer</a>&nbsp;writer)</code></th>
+<td class="col-last">
 <div class="block">指定された出力に書き込むエンコーダを返します。</div>
 </td>
 </tr>
-<tr class="rowColor" id="i5">
-<td class="colFirst"><code>byte[]</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#stringToByteArray(java.lang.Object)">stringToByteArray</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">Object</a>&nbsp;text)</code></th>
-<td class="colLast">
+<tr class="row-color" id="i5">
+<td class="col-first"><code>byte[]</code></td>
+<th class="col-second" scope="row"><code><span class="member-name-link"><a href="#stringToByteArray(java.lang.Object)">stringToByteArray</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html" title="java.lang内のクラスまたはインタフェース" class="external-link">Object</a>&nbsp;text)</code></th>
+<td class="col-last">
 <div class="block">指定された文字列をバイト列に変換します。</div>
 </td>
 </tr>
@@ -198,46 +183,38 @@ extends <a href="BasicFactory.html" title="qxsl.sheet内のクラス">BasicFacto
 </table>
 </div>
 </div>
-<div class="inheritedList">
-<h3>クラスから継承されたメソッド&nbsp;qxsl.sheet.<a href="BasicFactory.html" title="qxsl.sheet内のクラス">BasicFactory</a></h3>
-<a id="methods.inherited.from.class.qxsl.sheet.BasicFactory">
-<!--   -->
-</a><code><a href="BasicFactory.html#extensions()">extensions</a>, <a href="BasicFactory.html#get(java.lang.String)">get</a>, <a href="BasicFactory.html#getTableKey()">getTableKey</a>, <a href="BasicFactory.html#help()">help</a>, <a href="BasicFactory.html#name()">name</a>, <a href="BasicFactory.html#type()">type</a></code></div>
-<div class="inheritedList">
-<h3>クラスから継承されたメソッド&nbsp;qxsl.sheet.<a href="SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></h3>
-<a id="methods.inherited.from.class.qxsl.sheet.SheetFactory">
-<!--   -->
-</a><code><a href="SheetFactory.html#toString()">toString</a>, <a href="SheetFactory.html#unpack(byte%5B%5D)">unpack</a>, <a href="SheetFactory.html#unpack(java.lang.String)">unpack</a></code></div>
-<div class="inheritedList">
-<h3>クラスから継承されたメソッド&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">Object</a></h3>
-<a id="methods.inherited.from.class.java.lang.Object">
-<!--   -->
-</a><code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true#clone()" title="java.lang内のクラスまたはインタフェース" class="externalLink">clone</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true#equals(java.lang.Object)" title="java.lang内のクラスまたはインタフェース" class="externalLink">equals</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true#finalize()" title="java.lang内のクラスまたはインタフェース" class="externalLink">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true#getClass()" title="java.lang内のクラスまたはインタフェース" class="externalLink">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true#hashCode()" title="java.lang内のクラスまたはインタフェース" class="externalLink">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true#notify()" title="java.lang内のクラスまたはインタフェース" class="externalLink">notify</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true#notifyAll()" title="java.lang内のクラスまたはインタフェース" class="externalLink">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true#wait()" title="java.lang内のクラスまたはインタフェース" class="externalLink">wait</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true#wait(long)" title="java.lang内のクラスまたはインタフェース" class="externalLink">wait</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true#wait(long,int)" title="java.lang内のクラスまたはインタフェース" class="externalLink">wait</a></code></div>
+<div class="inherited-list">
+<h3 id="methods.inherited.from.class.qxsl.sheet.BasicFactory">クラスから継承されたメソッド&nbsp;qxsl.sheet.<a href="BasicFactory.html" title="qxsl.sheet内のクラス">BasicFactory</a></h3>
+<code><a href="BasicFactory.html#extensions()">extensions</a>, <a href="BasicFactory.html#get(java.lang.String)">get</a>, <a href="BasicFactory.html#getTableKey()">getTableKey</a>, <a href="BasicFactory.html#help()">help</a>, <a href="BasicFactory.html#name()">name</a>, <a href="BasicFactory.html#type()">type</a></code></div>
+<div class="inherited-list">
+<h3 id="methods.inherited.from.class.qxsl.sheet.SheetFactory">クラスから継承されたメソッド&nbsp;qxsl.sheet.<a href="SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></h3>
+<code><a href="SheetFactory.html#toString()">toString</a>, <a href="SheetFactory.html#unpack(byte%5B%5D)">unpack</a>, <a href="SheetFactory.html#unpack(java.lang.String)">unpack</a></code></div>
+<div class="inherited-list">
+<h3 id="methods.inherited.from.class.java.lang.Object">クラスから継承されたメソッド&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html" title="java.lang内のクラスまたはインタフェース" class="external-link">Object</a></h3>
+<code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#clone()" title="java.lang内のクラスまたはインタフェース" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="java.lang内のクラスまたはインタフェース" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#finalize()" title="java.lang内のクラスまたはインタフェース" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#getClass()" title="java.lang内のクラスまたはインタフェース" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#hashCode()" title="java.lang内のクラスまたはインタフェース" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#notify()" title="java.lang内のクラスまたはインタフェース" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#notifyAll()" title="java.lang内のクラスまたはインタフェース" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#wait()" title="java.lang内のクラスまたはインタフェース" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#wait(long)" title="java.lang内のクラスまたはインタフェース" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="java.lang内のクラスまたはインタフェース" class="external-link">wait</a></code></div>
 </section>
 </li>
 </ul>
 </section>
 <section class="details">
-<ul class="blockList">
+<ul class="details-list">
 <!-- ========= CONSTRUCTOR DETAIL ======== -->
-<li class="blockList">
-<section class="constructorDetails"><a id="constructor.detail">
-<!--   -->
-</a>
+<li>
+<section class="constructor-details" id="constructor.detail">
 <h2>コンストラクタの詳細</h2>
-<ul class="blockList">
-<li class="blockList">
-<section class="detail">
-<h3><a id="&lt;init&gt;(java.lang.String,java.lang.String)">PrintFactory</a></h3>
-<div class="memberSignature"><span class="modifiers">public</span>&nbsp;<span class="memberName">PrintFactory</span>&#8203;(<span class="arguments"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a>&nbsp;name,
-<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a>&nbsp;cset)</span></div>
+<ul class="member-list">
+<li>
+<section class="detail" id="&lt;init&gt;(java.lang.String,java.lang.String)">
+<h3>PrintFactory</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="member-name">PrintFactory</span>&#8203;(<span class="parameters"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a>&nbsp;name,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a>&nbsp;cset)</span></div>
 <div class="block">指定された名前と文字セットの書式を初期化します。</div>
-<dl>
-<dt><span class="paramLabel">パラメータ:</span></dt>
+<dl class="notes">
+<dt>パラメータ:</dt>
 <dd><code>name</code> - 書式の名前</dd>
 <dd><code>cset</code> - 文字セット</dd>
-<dt><span class="throwsLabel">例外:</span></dt>
-<dd><code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/UncheckedIOException.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">UncheckedIOException</a></code> - 設定の取得時の例外</dd>
+<dt>例外:</dt>
+<dd><code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/UncheckedIOException.html" title="java.io内のクラスまたはインタフェース" class="external-link">UncheckedIOException</a></code> - 設定の取得時の例外</dd>
 </dl>
 </section>
 </li>
@@ -245,94 +222,92 @@ extends <a href="BasicFactory.html" title="qxsl.sheet内のクラス">BasicFacto
 </section>
 </li>
 <!-- ============ METHOD DETAIL ========== -->
-<li class="blockList">
-<section class="methodDetails"><a id="method.detail">
-<!--   -->
-</a>
+<li>
+<section class="method-details" id="method.detail">
 <h2>メソッドの詳細</h2>
-<ul class="blockList">
-<li class="blockList">
-<section class="detail">
-<h3><a id="stringToByteArray(java.lang.Object)">stringToByteArray</a></h3>
-<div class="memberSignature"><span class="modifiers">public final</span>&nbsp;<span class="returnType">byte[]</span>&nbsp;<span class="memberName">stringToByteArray</span>&#8203;(<span class="arguments"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">Object</a>&nbsp;text)</span></div>
+<ul class="member-list">
+<li>
+<section class="detail" id="stringToByteArray(java.lang.Object)">
+<h3>stringToByteArray</h3>
+<div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type">byte[]</span>&nbsp;<span class="member-name">stringToByteArray</span>&#8203;(<span class="parameters"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html" title="java.lang内のクラスまたはインタフェース" class="external-link">Object</a>&nbsp;text)</span></div>
 <div class="block">指定された文字列をバイト列に変換します。</div>
-<dl>
-<dt><span class="paramLabel">パラメータ:</span></dt>
+<dl class="notes">
+<dt>パラメータ:</dt>
 <dd><code>text</code> - 文字列</dd>
-<dt><span class="returnLabel">戻り値:</span></dt>
+<dt>戻り値:</dt>
 <dd>バイト列</dd>
 </dl>
 </section>
 </li>
-<li class="blockList">
-<section class="detail">
-<h3><a id="byteArrayToString(byte[])">byteArrayToString</a></h3>
-<div class="memberSignature"><span class="modifiers">public final</span>&nbsp;<span class="returnType"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html?is-external=true" title="java.lang内のクラスまたはインタフェース" class="externalLink">String</a></span>&nbsp;<span class="memberName">byteArrayToString</span>&#8203;(<span class="arguments">byte[]&nbsp;data)</span></div>
+<li>
+<section class="detail" id="byteArrayToString(byte[])">
+<h3>byteArrayToString</h3>
+<div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a></span>&nbsp;<span class="member-name">byteArrayToString</span>&#8203;(<span class="parameters">byte[]&nbsp;data)</span></div>
 <div class="block">指定されたバイト列を文字列に変換します。</div>
-<dl>
-<dt><span class="paramLabel">パラメータ:</span></dt>
+<dl class="notes">
+<dt>パラメータ:</dt>
 <dd><code>data</code> - バイト列</dd>
-<dt><span class="returnLabel">戻り値:</span></dt>
+<dt>戻り値:</dt>
 <dd>文字列</dd>
 </dl>
 </section>
 </li>
-<li class="blockList">
-<section class="detail">
-<h3><a id="decoder(java.io.Reader)">decoder</a></h3>
-<div class="memberSignature"><span class="modifiers">public abstract</span>&nbsp;<span class="returnType"><a href="SheetDecoder.html" title="qxsl.sheet内のインタフェース">SheetDecoder</a></span>&nbsp;<span class="memberName">decoder</span>&#8203;(<span class="arguments"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/Reader.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">Reader</a>&nbsp;reader)</span></div>
+<li>
+<section class="detail" id="decoder(java.io.Reader)">
+<h3>decoder</h3>
+<div class="member-signature"><span class="modifiers">public abstract</span>&nbsp;<span class="return-type"><a href="SheetDecoder.html" title="qxsl.sheet内のインタフェース">SheetDecoder</a></span>&nbsp;<span class="member-name">decoder</span>&#8203;(<span class="parameters"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/Reader.html" title="java.io内のクラスまたはインタフェース" class="external-link">Reader</a>&nbsp;reader)</span></div>
 <div class="block">指定された入力を読み込むデコーダを返します。</div>
-<dl>
-<dt><span class="overrideSpecifyLabel">オーバーライド:</span></dt>
+<dl class="notes">
+<dt>オーバーライド:</dt>
 <dd><code><a href="SheetFactory.html#decoder(java.io.Reader)">decoder</a></code>&nbsp;クラス内&nbsp;<code><a href="SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></code></dd>
-<dt><span class="paramLabel">パラメータ:</span></dt>
+<dt>パラメータ:</dt>
 <dd><code>reader</code> - 要約書類を読み込む入力</dd>
-<dt><span class="returnLabel">戻り値:</span></dt>
+<dt>戻り値:</dt>
 <dd>デコーダ</dd>
 </dl>
 </section>
 </li>
-<li class="blockList">
-<section class="detail">
-<h3><a id="encoder(java.io.Writer)">encoder</a></h3>
-<div class="memberSignature"><span class="modifiers">public abstract</span>&nbsp;<span class="returnType"><a href="SheetEncoder.html" title="qxsl.sheet内のインタフェース">SheetEncoder</a></span>&nbsp;<span class="memberName">encoder</span>&#8203;(<span class="arguments"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/Writer.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">Writer</a>&nbsp;writer)</span></div>
+<li>
+<section class="detail" id="encoder(java.io.Writer)">
+<h3>encoder</h3>
+<div class="member-signature"><span class="modifiers">public abstract</span>&nbsp;<span class="return-type"><a href="SheetEncoder.html" title="qxsl.sheet内のインタフェース">SheetEncoder</a></span>&nbsp;<span class="member-name">encoder</span>&#8203;(<span class="parameters"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/Writer.html" title="java.io内のクラスまたはインタフェース" class="external-link">Writer</a>&nbsp;writer)</span></div>
 <div class="block">指定された出力に書き込むエンコーダを返します。</div>
-<dl>
-<dt><span class="overrideSpecifyLabel">オーバーライド:</span></dt>
+<dl class="notes">
+<dt>オーバーライド:</dt>
 <dd><code><a href="SheetFactory.html#encoder(java.io.Writer)">encoder</a></code>&nbsp;クラス内&nbsp;<code><a href="SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></code></dd>
-<dt><span class="paramLabel">パラメータ:</span></dt>
+<dt>パラメータ:</dt>
 <dd><code>writer</code> - 要約書類を書き込む出力</dd>
-<dt><span class="returnLabel">戻り値:</span></dt>
+<dt>戻り値:</dt>
 <dd>エンコーダ</dd>
 </dl>
 </section>
 </li>
-<li class="blockList">
-<section class="detail">
-<h3><a id="decoder(java.io.InputStream)">decoder</a></h3>
-<div class="memberSignature"><span class="modifiers">public final</span>&nbsp;<span class="returnType"><a href="SheetDecoder.html" title="qxsl.sheet内のインタフェース">SheetDecoder</a></span>&nbsp;<span class="memberName">decoder</span>&#8203;(<span class="arguments"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/InputStream.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">InputStream</a>&nbsp;is)</span></div>
+<li>
+<section class="detail" id="decoder(java.io.InputStream)">
+<h3>decoder</h3>
+<div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type"><a href="SheetDecoder.html" title="qxsl.sheet内のインタフェース">SheetDecoder</a></span>&nbsp;<span class="member-name">decoder</span>&#8203;(<span class="parameters"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/InputStream.html" title="java.io内のクラスまたはインタフェース" class="external-link">InputStream</a>&nbsp;is)</span></div>
 <div class="block">指定された入力を読み込むデコーダを返します。</div>
-<dl>
-<dt><span class="overrideSpecifyLabel">定義:</span></dt>
+<dl class="notes">
+<dt>定義:</dt>
 <dd><code><a href="SheetFactory.html#decoder(java.io.InputStream)">decoder</a></code>&nbsp;クラス内&nbsp;<code><a href="SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></code></dd>
-<dt><span class="paramLabel">パラメータ:</span></dt>
+<dt>パラメータ:</dt>
 <dd><code>is</code> - 要約書類を読み込む入力</dd>
-<dt><span class="returnLabel">戻り値:</span></dt>
+<dt>戻り値:</dt>
 <dd>デコーダ</dd>
 </dl>
 </section>
 </li>
-<li class="blockList">
-<section class="detail">
-<h3><a id="encoder(java.io.OutputStream)">encoder</a></h3>
-<div class="memberSignature"><span class="modifiers">public final</span>&nbsp;<span class="returnType"><a href="SheetEncoder.html" title="qxsl.sheet内のインタフェース">SheetEncoder</a></span>&nbsp;<span class="memberName">encoder</span>&#8203;(<span class="arguments"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/OutputStream.html?is-external=true" title="java.io内のクラスまたはインタフェース" class="externalLink">OutputStream</a>&nbsp;os)</span></div>
+<li>
+<section class="detail" id="encoder(java.io.OutputStream)">
+<h3>encoder</h3>
+<div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type"><a href="SheetEncoder.html" title="qxsl.sheet内のインタフェース">SheetEncoder</a></span>&nbsp;<span class="member-name">encoder</span>&#8203;(<span class="parameters"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/OutputStream.html" title="java.io内のクラスまたはインタフェース" class="external-link">OutputStream</a>&nbsp;os)</span></div>
 <div class="block">指定された出力に書き込むエンコーダを返します。</div>
-<dl>
-<dt><span class="overrideSpecifyLabel">定義:</span></dt>
+<dl class="notes">
+<dt>定義:</dt>
 <dd><code><a href="SheetFactory.html#encoder(java.io.OutputStream)">encoder</a></code>&nbsp;クラス内&nbsp;<code><a href="SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></code></dd>
-<dt><span class="paramLabel">パラメータ:</span></dt>
+<dt>パラメータ:</dt>
 <dd><code>os</code> - 要約書類を書き込む出力</dd>
-<dt><span class="returnLabel">戻り値:</span></dt>
+<dt>戻り値:</dt>
 <dd>エンコーダ</dd>
 </dl>
 </section>
@@ -342,40 +317,34 @@ extends <a href="BasicFactory.html" title="qxsl.sheet内のクラス">BasicFacto
 </li>
 </ul>
 </section>
-</div>
 <!-- ========= END OF CLASS DATA ========= -->
 </main>
 <footer role="contentinfo">
 <nav role="navigation">
 <!-- ======= START OF BOTTOM NAVBAR ====== -->
-<div class="bottomNav"><a id="navbar.bottom">
-<!--   -->
-</a>
-<div class="skipNav"><a href="#skip.navbar.bottom" title="ナビゲーション・リンクをスキップ">ナビゲーション・リンクをスキップ</a></div>
-<a id="navbar.bottom.firstrow">
-<!--   -->
-</a>
-<ul class="navList" title="ナビゲーション">
+<div class="bottom-nav" id="navbar.bottom">
+<div class="skip-nav"><a href="#skip.navbar.bottom" title="ナビゲーション・リンクをスキップ">ナビゲーション・リンクをスキップ</a></div>
+<ul id="navbar.bottom.firstrow" class="nav-list" title="ナビゲーション">
 <li><a href="../../index.html">概要</a></li>
 <li><a href="package-summary.html">パッケージ</a></li>
-<li class="navBarCell1Rev">クラス</li>
+<li class="nav-bar-cell1-rev">クラス</li>
 <li><a href="package-tree.html">階層ツリー</a></li>
 <li><a href="../../deprecated-list.html">非推奨</a></li>
 <li><a href="../../index-all.html">索引</a></li>
 <li><a href="../../help-doc.html">ヘルプ</a></li>
 </ul>
-<div class="aboutLanguage"><a href='http://nextzlog.github.io/qxsl'>QxSL API</a></div>
+<div class="about-language"><a href='http://nextzlog.github.io/qxsl'>QxSL API</a></div>
 </div>
-<div class="subNav">
+<div class="sub-nav">
 <div>
-<ul class="subNavList">
+<ul class="sub-nav-list">
 <li>概要:&nbsp;</li>
 <li>ネスト&nbsp;|&nbsp;</li>
 <li>フィールド&nbsp;|&nbsp;</li>
 <li><a href="#constructor.summary">コンストラクタ</a>&nbsp;|&nbsp;</li>
 <li><a href="#method.summary">メソッド</a></li>
 </ul>
-<ul class="subNavList">
+<ul class="sub-nav-list">
 <li>詳細:&nbsp;</li>
 <li>フィールド&nbsp;|&nbsp;</li>
 <li><a href="#constructor.detail">コンストラクタ</a>&nbsp;|&nbsp;</li>
@@ -383,11 +352,10 @@ extends <a href="BasicFactory.html" title="qxsl.sheet内のクラス">BasicFacto
 </ul>
 </div>
 </div>
-<a id="skip.navbar.bottom">
-<!--   -->
-</a>
 <!-- ======== END OF BOTTOM NAVBAR ======= -->
-</nav>
+<span class="skip-nav" id="skip.navbar.bottom">
+<!--   -->
+</span></nav>
 </footer>
 </div>
 </div>
