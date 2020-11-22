@@ -15,7 +15,7 @@
 <script type="text/javascript" src="../../script-dir/jquery-ui.min.js"></script>
 </head>
 <body class="class-declaration-page">
-<script type="text/javascript">var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10};
+<script type="text/javascript">var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10};
 var tabs = {65535:["t0","\u3059\u3079\u3066\u306E\u30E1\u30BD\u30C3\u30C9"],2:["t2","\u30A4\u30F3\u30B9\u30BF\u30F3\u30B9\u30FB\u30E1\u30BD\u30C3\u30C9"],8:["t4","concrete\u30E1\u30BD\u30C3\u30C9"]};
 var altColor = "alt-color";
 var rowColor = "row-color";
@@ -240,6 +240,15 @@ implements <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base
 <div class="block">このインスタンスが検出した書式を列挙します。</div>
 </td>
 </tr>
+<tr class="row-color" id="i5">
+<td class="col-first"><code>void</code></td>
+<th class="col-second" scope="row"><code><span class="member-name-link"><a href="#set(qxsl.value.Tuple,javax.xml.namespace.QName,java.lang.Object)">set</a></span>&#8203;(<a href="../value/Tuple.html" title="qxsl.value内のクラス">Tuple</a>&nbsp;tuple,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.xml/javax/xml/namespace/QName.html" title="javax.xml.namespace内のクラスまたはインタフェース" class="external-link">QName</a>&nbsp;qname,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html" title="java.lang内のクラスまたはインタフェース" class="external-link">Object</a>&nbsp;value)</code></th>
+<td class="col-last">
+<div class="block">指定された文字列と名前を持つ属性地を設定します。</div>
+</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -333,6 +342,21 @@ implements <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base
 </section>
 </li>
 <li>
+<section class="detail" id="decode(javax.xml.namespace.QName,java.lang.String)">
+<h3>decode</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../value/Field.html" title="qxsl.value内のクラス">Field</a></span>&nbsp;<span class="member-name">decode</span>&#8203;(<span class="parameters"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.xml/javax/xml/namespace/QName.html" title="javax.xml.namespace内のクラスまたはインタフェース" class="external-link">QName</a>&nbsp;qname,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a>&nbsp;value)</span></div>
+<div class="block">指定された文字列と名前を持つ属性値を取得します。</div>
+<dl class="notes">
+<dt>パラメータ:</dt>
+<dd><code>qname</code> - 属性の名前</dd>
+<dd><code>value</code> - 属性を表す文字列</dd>
+<dt>戻り値:</dt>
+<dd>属性値</dd>
+</dl>
+</section>
+</li>
+<li>
 <section class="detail" id="encode(qxsl.value.Field)">
 <h3>encode</h3>
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a></span>&nbsp;<span class="member-name">encode</span>&#8203;(<span class="parameters"><a href="../value/Field.html" title="qxsl.value内のクラス">Field</a>&nbsp;field)</span></div>
@@ -346,17 +370,17 @@ implements <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base
 </section>
 </li>
 <li>
-<section class="detail" id="decode(javax.xml.namespace.QName,java.lang.String)">
-<h3>decode</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="../value/Field.html" title="qxsl.value内のクラス">Field</a></span>&nbsp;<span class="member-name">decode</span>&#8203;(<span class="parameters"><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.xml/javax/xml/namespace/QName.html" title="javax.xml.namespace内のクラスまたはインタフェース" class="external-link">QName</a>&nbsp;qname,
-<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a>&nbsp;value)</span></div>
-<div class="block">指定された文字列と名前を持つ属性値を取得します。</div>
+<section class="detail" id="set(qxsl.value.Tuple,javax.xml.namespace.QName,java.lang.Object)">
+<h3>set</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">void</span>&nbsp;<span class="member-name">set</span>&#8203;(<span class="parameters"><a href="../value/Tuple.html" title="qxsl.value内のクラス">Tuple</a>&nbsp;tuple,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.xml/javax/xml/namespace/QName.html" title="javax.xml.namespace内のクラスまたはインタフェース" class="external-link">QName</a>&nbsp;qname,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html" title="java.lang内のクラスまたはインタフェース" class="external-link">Object</a>&nbsp;value)</span></div>
+<div class="block">指定された文字列と名前を持つ属性地を設定します。</div>
 <dl class="notes">
 <dt>パラメータ:</dt>
+<dd><code>tuple</code> - 交信記録</dd>
 <dd><code>qname</code> - 属性の名前</dd>
 <dd><code>value</code> - 属性を表す文字列</dd>
-<dt>戻り値:</dt>
-<dd>属性値</dd>
 </dl>
 </section>
 </li>

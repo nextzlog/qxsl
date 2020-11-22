@@ -1,0 +1,70 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "qxsl",
+    "module": "qxsl",
+    "version": "0.1.187",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "5bjetzn3gfhmvpxx2f2czfk67q"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "qxsl-0.1.187.jar",
+          "url": "qxsl-0.1.187.jar",
+          "size": 661014,
+          "sha512": "c7257bb82a789d1be9affc7d4be818b8979587386cfa1dff3bec14232ad32e1aa48b1ee54c59945c1578196f522402ccaea216011d0c237202f1ec04b8cf999d",
+          "sha256": "2381be70b20ae8a3ac5e6543114cbfefc0e344ad3a9ced288dfbaacc01d46f85",
+          "sha1": "0c9cd6e2004ddbe15a81d3ed66eb3cd689429cfa",
+          "md5": "94bda180826e0a6d1eae77d69b2e866e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.5.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qxsl-0.1.187.jar",
+          "url": "qxsl-0.1.187.jar",
+          "size": 661014,
+          "sha512": "c7257bb82a789d1be9affc7d4be818b8979587386cfa1dff3bec14232ad32e1aa48b1ee54c59945c1578196f522402ccaea216011d0c237202f1ec04b8cf999d",
+          "sha256": "2381be70b20ae8a3ac5e6543114cbfefc0e344ad3a9ced288dfbaacc01d46f85",
+          "sha1": "0c9cd6e2004ddbe15a81d3ed66eb3cd689429cfa",
+          "md5": "94bda180826e0a6d1eae77d69b2e866e"
+        }
+      ]
+    }
+  ]
+}
