@@ -15,7 +15,7 @@
 <script type="text/javascript" src="../../script-dir/jquery-ui.min.js"></script>
 </head>
 <body class="class-declaration-page">
-<script type="text/javascript">var data = {"i0":10,"i1":6,"i2":6,"i3":6,"i4":6,"i5":10,"i6":6,"i7":6,"i8":6,"i9":10,"i10":10,"i11":10};
+<script type="text/javascript">var data = {"i0":10,"i1":6,"i2":6,"i3":6,"i4":6,"i5":10,"i6":6,"i7":6,"i8":6,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10};
 var tabs = {65535:["t0","\u3059\u3079\u3066\u306E\u30E1\u30BD\u30C3\u30C9"],2:["t2","\u30A4\u30F3\u30B9\u30BF\u30F3\u30B9\u30FB\u30E1\u30BD\u30C3\u30C9"],4:["t3","abstract\u30E1\u30BD\u30C3\u30C9"],8:["t4","concrete\u30E1\u30BD\u30C3\u30C9"]};
 var altColor = "alt-color";
 var rowColor = "row-color";
@@ -203,20 +203,36 @@ implements <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base
 </td>
 </tr>
 <tr class="row-color" id="i9">
+<td class="col-first"><code>boolean</code></td>
+<th class="col-second" scope="row"><code><span class="member-name-link"><a href="#openEntries(int,java.time.ZoneId)">openEntries</a></span>&#8203;(int&nbsp;year,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/ZoneId.html" title="java.time内のクラスまたはインタフェース" class="external-link">ZoneId</a>&nbsp;zone)</code></th>
+<td class="col-last">
+<div class="block">指定された年の参加登録が受付可能か確認します。</div>
+</td>
+</tr>
+<tr class="alt-color" id="i10">
+<td class="col-first"><code>boolean</code></td>
+<th class="col-second" scope="row"><code><span class="member-name-link"><a href="#openResults(int,java.time.ZoneId)">openResults</a></span>&#8203;(int&nbsp;year,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/ZoneId.html" title="java.time内のクラスまたはインタフェース" class="external-link">ZoneId</a>&nbsp;zone)</code></th>
+<td class="col-last">
+<div class="block">指定された年の集計結果が閲覧可能か確認します。</div>
+</td>
+</tr>
+<tr class="row-color" id="i11">
 <td class="col-first"><code><a href="Contest.html" title="qxsl.ruler内のクラス">Contest</a></code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#remove(qxsl.ruler.Section)">remove</a></span>&#8203;(<a href="Section.html" title="qxsl.ruler内のクラス">Section</a>&nbsp;sec)</code></th>
 <td class="col-last">
 <div class="block">指定された部門をこの規約から削除します。</div>
 </td>
 </tr>
-<tr class="alt-color" id="i10">
+<tr class="alt-color" id="i12">
 <td class="col-first"><code><a href="Section.html" title="qxsl.ruler内のクラス">Section</a></code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#section(java.lang.String)">section</a></span>&#8203;(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a>&nbsp;name)</code></th>
 <td class="col-last">
 <div class="block">指定された名前の部門を検索します。</div>
 </td>
 </tr>
-<tr class="row-color" id="i11">
+<tr class="row-color" id="i13">
 <td class="col-first"><code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html" title="java.lang内のクラスまたはインタフェース" class="external-link">String</a></code></td>
 <th class="col-second" scope="row"><code><span class="member-name-link"><a href="#toString()">toString</a></span>()</code></th>
 <td class="col-last">
@@ -359,6 +375,36 @@ implements <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base
 <dd><code>year</code> - 開催年</dd>
 <dt>戻り値:</dt>
 <dd>締切日</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="openEntries(int,java.time.ZoneId)">
+<h3>openEntries</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="member-name">openEntries</span>&#8203;(<span class="parameters">int&nbsp;year,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/ZoneId.html" title="java.time内のクラスまたはインタフェース" class="external-link">ZoneId</a>&nbsp;zone)</span></div>
+<div class="block">指定された年の参加登録が受付可能か確認します。</div>
+<dl class="notes">
+<dt>パラメータ:</dt>
+<dd><code>year</code> - 開催年</dd>
+<dd><code>zone</code> - タイムゾーン</dd>
+<dt>戻り値:</dt>
+<dd>現在時刻で受付可能な場合は真</dd>
+</dl>
+</section>
+</li>
+<li>
+<section class="detail" id="openResults(int,java.time.ZoneId)">
+<h3>openResults</h3>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">boolean</span>&nbsp;<span class="member-name">openResults</span>&#8203;(<span class="parameters">int&nbsp;year,
+<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/ZoneId.html" title="java.time内のクラスまたはインタフェース" class="external-link">ZoneId</a>&nbsp;zone)</span></div>
+<div class="block">指定された年の集計結果が閲覧可能か確認します。</div>
+<dl class="notes">
+<dt>パラメータ:</dt>
+<dd><code>year</code> - 開催年</dd>
+<dd><code>zone</code> - タイムゾーン</dd>
+<dt>戻り値:</dt>
+<dd>現在時刻で閲覧可能な場合は真</dd>
 </dl>
 </section>
 </li>

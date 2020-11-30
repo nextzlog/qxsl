@@ -56,6 +56,12 @@ loadScripts(document, 'script');</script>
 <a href="#I:A">A</a>&nbsp;<a href="#I:B">B</a>&nbsp;<a href="#I:C">C</a>&nbsp;<a href="#I:D">D</a>&nbsp;<a href="#I:E">E</a>&nbsp;<a href="#I:F">F</a>&nbsp;<a href="#I:G">G</a>&nbsp;<a href="#I:H">H</a>&nbsp;<a href="#I:I">I</a>&nbsp;<a href="#I:L">L</a>&nbsp;<a href="#I:M">M</a>&nbsp;<a href="#I:N">N</a>&nbsp;<a href="#I:O">O</a>&nbsp;<a href="#I:P">P</a>&nbsp;<a href="#I:Q">Q</a>&nbsp;<a href="#I:R">R</a>&nbsp;<a href="#I:S">S</a>&nbsp;<a href="#I:T">T</a>&nbsp;<a href="#I:U">U</a>&nbsp;<a href="#I:V">V</a>&nbsp;<a href="#I:W">W</a>&nbsp;<br><a href="allclasses-index.html">すべてのクラス</a><span class="vertical-separator">|</span><a href="allpackages-index.html">すべてのパッケージ</a>
 <h2 class="title" id="I:A">A</h2>
 <dl class="index">
+<dt><a href="qxsl/ruler/Absence.html" title="qxsl.ruler内のクラス"><span class="type-name-link">Absence</span></a> - <a href="qxsl/ruler/package-summary.html">qxsl.ruler</a>のクラス</dt>
+<dd>
+<div class="block">参加者が不参加の部門を表す特殊な実装です。</div>
+</dd>
+<dt><span class="member-name-link"><a href="qxsl/ruler/Absence.html#%3Cinit%3E()">Absence()</a></span> - クラス のコンストラクタqxsl.ruler.<a href="qxsl/ruler/Absence.html" title="qxsl.ruler内のクラス">Absence</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="member-name-link"><a href="qxsl/ruler/Summary.html#accepted()">accepted()</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Summary.html" title="qxsl.ruler内のクラス">Summary</a></dt>
 <dd>
 <div class="block">指定された部門で有効な交信を列挙します。</div>
@@ -375,6 +381,10 @@ loadScripts(document, 'script');</script>
 <dt><span class="member-name-link"><a href="qxsl/ruler/Summary.html#entity()">entity()</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Summary.html" title="qxsl.ruler内のクラス">Summary</a></dt>
 <dd>
 <div class="block">マルチ集合を順に並べたリストを返します。</div>
+</dd>
+<dt><span class="member-name-link"><a href="qxsl/ruler/Absence.html#entity(qxsl.model.Item)">entity(Item)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Absence.html" title="qxsl.ruler内のクラス">Absence</a></dt>
+<dd>
+<div class="block">指定された交信記録のマルチを発行します。</div>
 </dd>
 <dt><span class="member-name-link"><a href="qxsl/ruler/Promise.html#entity(qxsl.model.Item)">entity(Item)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Promise.html" title="qxsl.ruler内のクラス">Promise</a></dt>
 <dd>
@@ -720,6 +730,10 @@ loadScripts(document, 'script');</script>
 </dl>
 <h2 class="title" id="I:I">I</h2>
 <dl class="index">
+<dt><span class="member-name-link"><a href="qxsl/ruler/Section.html#isAbsence()">isAbsence()</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Section.html" title="qxsl.ruler内のクラス">Section</a></dt>
+<dd>
+<div class="block">この部門が不参加部門であるか確認します。</div>
+</dd>
 <dt><span class="member-name-link"><a href="qxsl/value/Field.html#isAny()">isAny()</a></span> - クラス のメソッドqxsl.value.<a href="qxsl/value/Field.html" title="qxsl.value内のクラス">Field</a></dt>
 <dd>
 <div class="block">この属性が<a href="qxsl/field/FieldManager.Any.html" title="qxsl.field内のクラス"><code>FieldManager.Any</code></a>か確認します。</div>
@@ -986,6 +1000,14 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">指定された年で複製します。</div>
 </dd>
+<dt><span class="member-name-link"><a href="qxsl/ruler/Contest.html#openEntries(int,java.time.ZoneId)">openEntries(int, ZoneId)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Contest.html" title="qxsl.ruler内のクラス">Contest</a></dt>
+<dd>
+<div class="block">指定された年の参加登録が受付可能か確認します。</div>
+</dd>
+<dt><span class="member-name-link"><a href="qxsl/ruler/Contest.html#openResults(int,java.time.ZoneId)">openResults(int, ZoneId)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Contest.html" title="qxsl.ruler内のクラス">Contest</a></dt>
+<dd>
+<div class="block">指定された年の集計結果が閲覧可能か確認します。</div>
+</dd>
 <dt><span class="member-name-link"><a href="qxsl/table/TableEncoder.html#output(qxsl.model.Item)">output(Item)</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/TableEncoder.html" title="qxsl.table内のクラス">TableEncoder</a></dt>
 <dd>
 <div class="block">ストリームの現在位置に交信記録を書き込みます。</div>
@@ -1148,6 +1170,10 @@ loadScripts(document, 'script');</script>
 <dt><span class="member-name-link"><a href="qxsl/table/PrintDecoder.html#reset()">reset()</a></span> - クラス のメソッドqxsl.table.<a href="qxsl/table/PrintDecoder.html" title="qxsl.table内のクラス">PrintDecoder</a></dt>
 <dd>
 <div class="block">入力を直前の印付け位置まで戻します。</div>
+</dd>
+<dt><span class="member-name-link"><a href="qxsl/ruler/Absence.html#result(qxsl.ruler.Summary)">result(Summary)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Absence.html" title="qxsl.ruler内のクラス">Absence</a></dt>
+<dd>
+<div class="block">指定された集計結果の総得点を計算します。</div>
 </dd>
 <dt><span class="member-name-link"><a href="qxsl/ruler/Promise.html#result(qxsl.ruler.Summary)">result(Summary)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Promise.html" title="qxsl.ruler内のクラス">Promise</a></dt>
 <dd>
@@ -1409,6 +1435,10 @@ loadScripts(document, 'script');</script>
 <dd>
 <div class="block">交信の現地時刻を表す属性の名前です。</div>
 </dd>
+<dt><span class="member-name-link"><a href="qxsl/ruler/Summary.html#toArray()">toArray()</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Summary.html" title="qxsl.ruler内のクラス">Summary</a></dt>
+<dd>
+<div class="block">得点とマルチ集合を並べた配列を返します。</div>
+</dd>
 <dt><span class="member-name-link"><a href="qxsl/draft/Band.html#toDecimalString(int)">toDecimalString(int)</a></span> - クラス のメソッドqxsl.draft.<a href="qxsl/draft/Band.html" title="qxsl.draft内のクラス">Band</a></dt>
 <dd>
 <div class="block">この周波数を実数で表現する文字列を返します。</div>
@@ -1428,10 +1458,6 @@ loadScripts(document, 'script');</script>
 <dt><span class="member-name-link"><a href="qxsl/draft/Band.html#toMHzString()">toMHzString()</a></span> - クラス のメソッドqxsl.draft.<a href="qxsl/draft/Band.html" title="qxsl.draft内のクラス">Band</a></dt>
 <dd>
 <div class="block">周波数をメガヘルツ単位の文字列で返します。</div>
-</dd>
-<dt><span class="member-name-link"><a href="qxsl/ruler/Summary.html#toScoreAndEntitySets()">toScoreAndEntitySets()</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Summary.html" title="qxsl.ruler内のクラス">Summary</a></dt>
-<dd>
-<div class="block">得点とマルチ集合を並べた配列を返します。</div>
 </dd>
 <dt><span class="member-name-link"><a href="qxsl/draft/Band.html#toString()">toString()</a></span> - クラス のメソッドqxsl.draft.<a href="qxsl/draft/Band.html" title="qxsl.draft内のクラス">Band</a></dt>
 <dd>
@@ -1512,6 +1538,10 @@ loadScripts(document, 'script');</script>
 </dl>
 <h2 class="title" id="I:U">U</h2>
 <dl class="index">
+<dt><span class="member-name-link"><a href="qxsl/ruler/Absence.html#unique(qxsl.model.Item)">unique(Item)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Absence.html" title="qxsl.ruler内のクラス">Absence</a></dt>
+<dd>
+<div class="block">指定された交信記録の識別子を発行します。</div>
+</dd>
 <dt><span class="member-name-link"><a href="qxsl/ruler/Promise.html#unique(qxsl.model.Item)">unique(Item)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Promise.html" title="qxsl.ruler内のクラス">Promise</a></dt>
 <dd>
 <div class="block">指定された交信記録の識別子を発行します。</div>
@@ -1572,6 +1602,10 @@ loadScripts(document, 'script');</script>
 <dt><span class="member-name-link"><a href="qxsl/value/Tuple.html#value(javax.xml.namespace.QName)">value(QName)</a></span> - クラス のメソッドqxsl.value.<a href="qxsl/value/Tuple.html" title="qxsl.value内のクラス">Tuple</a></dt>
 <dd>
 <div class="block">指定された属性名に対応する属性の値を返します。</div>
+</dd>
+<dt><span class="member-name-link"><a href="qxsl/ruler/Absence.html#verify(qxsl.model.Item)">verify(Item)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Absence.html" title="qxsl.ruler内のクラス">Absence</a></dt>
+<dd>
+<div class="block">指定された交信記録の妥当性を検査します。</div>
 </dd>
 <dt><span class="member-name-link"><a href="qxsl/ruler/Promise.html#verify(qxsl.model.Item)">verify(Item)</a></span> - クラス のメソッドqxsl.ruler.<a href="qxsl/ruler/Promise.html" title="qxsl.ruler内のクラス">Promise</a></dt>
 <dd>
