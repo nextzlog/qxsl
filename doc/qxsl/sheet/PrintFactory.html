@@ -158,7 +158,7 @@ loadScripts(document, 'script');</script>
 <code><a href="BasicFactory.html#extensions()">extensions</a>, <a href="BasicFactory.html#get(java.lang.String)">get</a>, <a href="BasicFactory.html#getTableKey()">getTableKey</a>, <a href="BasicFactory.html#help()">help</a>, <a href="BasicFactory.html#name()">name</a>, <a href="BasicFactory.html#type()">type</a></code></div>
 <div class="inherited-list">
 <h3 id="methods.inherited.from.class.qxsl.sheet.SheetFactory">クラスから継承されたメソッド&nbsp;qxsl.sheet.<a href="SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></h3>
-<code><a href="SheetFactory.html#toString()">toString</a>, <a href="SheetFactory.html#unpack(byte%5B%5D)">unpack</a>, <a href="SheetFactory.html#unpack(java.lang.String)">unpack</a></code></div>
+<code><a href="SheetFactory.html#decoder(byte%5B%5D)">decoder</a>, <a href="SheetFactory.html#decoder(java.lang.String)">decoder</a>, <a href="SheetFactory.html#toString()">toString</a></code></div>
 <div class="inherited-list">
 <h3 id="methods.inherited.from.class.java.lang.Object">クラスから継承されたメソッド&nbsp;java.lang.<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html" title="java.lang内のクラスまたはインタフェース" class="external-link">Object</a></h3>
 <code><a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#clone()" title="java.lang内のクラスまたはインタフェース" class="external-link">clone</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#equals(java.lang.Object)" title="java.lang内のクラスまたはインタフェース" class="external-link">equals</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#finalize()" title="java.lang内のクラスまたはインタフェース" class="external-link">finalize</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#getClass()" title="java.lang内のクラスまたはインタフェース" class="external-link">getClass</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#hashCode()" title="java.lang内のクラスまたはインタフェース" class="external-link">hashCode</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#notify()" title="java.lang内のクラスまたはインタフェース" class="external-link">notify</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#notifyAll()" title="java.lang内のクラスまたはインタフェース" class="external-link">notifyAll</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#wait()" title="java.lang内のクラスまたはインタフェース" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#wait(long)" title="java.lang内のクラスまたはインタフェース" class="external-link">wait</a>, <a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/Object.html#wait(long,int)" title="java.lang内のクラスまたはインタフェース" class="external-link">wait</a></code></div>
@@ -258,7 +258,7 @@ loadScripts(document, 'script');</script>
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type"><a href="SheetDecoder.html" title="qxsl.sheet内のインタフェース">SheetDecoder</a></span>&nbsp;<span class="element-name">decoder</span>&#8203;<span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/InputStream.html" title="java.io内のクラスまたはインタフェース" class="external-link">InputStream</a>&nbsp;is)</span></div>
 <div class="block">指定された入力を読み込むデコーダを返します。</div>
 <dl class="notes">
-<dt>定義:</dt>
+<dt>オーバーライド:</dt>
 <dd><code><a href="SheetFactory.html#decoder(java.io.InputStream)">decoder</a></code>&nbsp;クラス内&nbsp;<code><a href="SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></code></dd>
 <dt>パラメータ:</dt>
 <dd><code>is</code> - 要約書類を読み込む入力</dd>
@@ -273,7 +273,7 @@ loadScripts(document, 'script');</script>
 <div class="member-signature"><span class="modifiers">public final</span>&nbsp;<span class="return-type"><a href="SheetEncoder.html" title="qxsl.sheet内のインタフェース">SheetEncoder</a></span>&nbsp;<span class="element-name">encoder</span>&#8203;<span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/OutputStream.html" title="java.io内のクラスまたはインタフェース" class="external-link">OutputStream</a>&nbsp;os)</span></div>
 <div class="block">指定された出力に書き込むエンコーダを返します。</div>
 <dl class="notes">
-<dt>定義:</dt>
+<dt>オーバーライド:</dt>
 <dd><code><a href="SheetFactory.html#encoder(java.io.OutputStream)">encoder</a></code>&nbsp;クラス内&nbsp;<code><a href="SheetFactory.html" title="qxsl.sheet内のクラス">SheetFactory</a></code></dd>
 <dt>パラメータ:</dt>
 <dd><code>os</code> - 要約書類を書き込む出力</dd>
